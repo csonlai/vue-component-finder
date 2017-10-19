@@ -1,0 +1,125 @@
+.vfinder-info a,
+.vfinder-info div  {
+    color: #dedede;
+}
+.vfinder-info *,
+.vfinder-code *
+{
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    background: transparent;
+}
+.vfinder-info > div {
+    padding: 4px 12px;
+}
+.vfinder-info > div:hover{
+    background: rgba(140, 140, 140, 0.36);
+}
+.vfinder-info {
+    position: fixed;
+    border-radius: 4px;
+    padding: 5px 0;
+    background: rgba(64, 64, 64, 0.9);
+
+/*    padding: 10px 18px;*/
+    z-index: 9999999;
+    border: 1px solid rgb(143, 143, 143);
+    font-size: 13px;
+}
+.vfinder-info:after{
+    position: absolute;
+    content: " ";
+    width: 10px;
+    height: 10px;
+    -webkit-transform: rotate(45deg);
+    background: rgba(64, 64, 64, 0.9);
+    left: -5px;
+    top: 50%;
+    margin-top: -5px;
+}
+.vfinder-info-name-template{
+    color: #ff7474;
+}
+.vfinder-info-name-style{
+    color: #17ceff;
+}
+.vfinder-info-name-script{
+    color: #f281ff;
+}
+.vfinder-info-name-created{
+    color: #40c22a;
+}
+.vfinder-info-name-template,
+.vfinder-info-name-style,
+.vfinder-info-name-script,
+.vfinder-info-name-created{
+    display: inline-block;
+    width: 75px;
+}
+.vfinder-mask {
+    position: fixed;
+    z-index: 9999998;
+    background-color: rgba(1, 165, 255, 0.2);
+    pointer-events: none;
+}
+.vfinder-code{
+    position: fixed;
+/*    padding: 10px;*/
+/*    background: rgba(254, 255, 221, 0.9);*/
+    background: rgba(64, 64, 64, 0.9);
+    max-width: 400px;
+    max-height: 300px;
+    font-size: 10px;
+    z-index: 10000000;
+    word-wrap: break-word;
+    border-radius: 4px;
+/*    color: #747474;*/
+    color: #dedede;
+    border: 1px solid rgba(222, 222, 222, 0.34);
+}
+.vfinder-code-content::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+.vfinder-code-content::-webkit-scrollbar-thumb {
+  background: rgba(103, 103, 103, 0.9);
+  border-radius: 4px;
+}
+
+.vfinder-code-content::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 4px;
+}
+
+
+.vfinder-code-content{
+    padding: 0 10px;
+    overflow: auto;
+    max-height: 260px;
+}
+.vfinder-code-content p {
+    padding: 4px 6px 4px 0;
+}
+.vfinder-code-content > pre {
+    float: left;
+    clear: left;
+    white-space: nowrap;
+}
+.vfinder-current-code-line{
+    background: rgba(234, 102, 223, 0.25);
+    border-radius: 2px;
+}
+.vfinder-path{
+    padding: 10px;
+    border-bottom: 1px solid rgba(222, 222, 222, 0.34);
+    background: rgba(140, 140, 140, 0.36);
+    white-space:nowrap;
+    overflow-x: auto;
+}
+.vfinder-line-count{
+    min-width: 25px;
+    display: inline-block;
+}
+
+
