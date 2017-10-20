@@ -69,7 +69,6 @@
 /*    background: rgba(254, 255, 221, 0.9);*/
     background: rgba(64, 64, 64, 0.9);
     max-width: 400px;
-    max-height: 300px;
     font-size: 10px;
     z-index: 10000000;
     word-wrap: break-word;
@@ -78,15 +77,17 @@
     color: #dedede;
     border: 1px solid rgba(222, 222, 222, 0.34);
 }
+.vfinder-path::-webkit-scrollbar,
 .vfinder-code-content::-webkit-scrollbar {
     height: 8px;
     width: 8px;
 }
+.vfinder-path::-webkit-scrollbar-thumb,
 .vfinder-code-content::-webkit-scrollbar-thumb {
   background: rgba(103, 103, 103, 0.9);
   border-radius: 4px;
 }
-
+.vfinder-path::-webkit-scrollbar-track,
 .vfinder-code-content::-webkit-scrollbar-track {
   background: #ddd;
   border-radius: 4px;
@@ -118,6 +119,7 @@
     overflow-x: auto;
 }
 .vfinder-line-count{
+    color: #dedede;
     min-width: 25px;
     display: inline-block;
 }
