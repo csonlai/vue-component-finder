@@ -26,7 +26,7 @@ vue-component-finder是一款用于Vue项目的代码模块预览与快速定位
 引入loader：
 
 webpack 2.x:
-```
+``` js
     module: {
         rules: [{
             test: /\.(vue)$/,
@@ -37,7 +37,7 @@ webpack 2.x:
     }
 ```
 webpack 1.x:
-```
+``` js
     module: {
         preLoaders: [{
             test: /\.(vue)$/,
@@ -47,7 +47,7 @@ webpack 1.x:
     }
 ```
 引入plugin并配置对应IDE类型以及文件路径（sublime为例）:
-```
+``` js
     var VueComponentFinderPlugin = require('vue-component-finder-plugin');
 
     plugins: [
