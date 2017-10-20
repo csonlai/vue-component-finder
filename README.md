@@ -63,5 +63,5 @@ webpack 1.x:
 4.运行项目开发构建npm run dev，打开页面，鼠标移动到组件区域即可展示对应模块详情，点击自动打开IDE展示对应组件文件内容。
 
 
-  [1]: https://i.screenshot.net/3356kb3
-  [2]: https://i.screenshot.net/1lnwpi0
+  [1]: http://p.qpic.cn/pic_wework/3832524150/beb84ab606969bfaf48d8997b870cfa549817938e8657f98/0
+  [2]: http://p.qpic.cn/pic_wework/3832524150/b3b547bb07efdf6682e4d13f9bdd5c939537ac9915842d7d/0
