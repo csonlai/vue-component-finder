@@ -234,7 +234,6 @@
 
 
     document.addEventListener('mouseover',function(e){
-        debugger;
         var target = e.target;
         if ((info && info.contains(target)) || (code && code.contains(target))) {
             return;
