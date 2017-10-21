@@ -1,15 +1,18 @@
 # vue-component-finder
 vue-component-finder是一款用于Vue项目的代码模块预览与快速定位的chrome插件，对于文件目录繁多的vue项目，可以使用该插件快速查看组件对应的代码模块，以及快速打开IDE修改组件代码。
 
-[English README](https://github.com/csonlai/vue-component-finder/blob/master/README.zh-CN.md)
+[English README](https://github.com/csonlai/vue-component-finder/blob/master/README.md)
 
 # 插件展示
 ![插件展示][1]
 
 
 1. 组件的template，script，style对应所在的文件以及起始行数
+
 2. 组件被创建的文件以及行数
+
 3. 文件代码预览
+
 4. 组件所在页面位置
 
 点击自动打开IDE，并定位到对应文件和对应的代码行：
