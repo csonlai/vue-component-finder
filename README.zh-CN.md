@@ -1,29 +1,30 @@
 # vue-component-finder
-vue-component-finder is a Chrome plugin for Vue project, which help developer preview component code module and locate code file in IDE quickly.
+vue-component-finder是一款用于Vue项目的代码模块预览与快速定位的chrome插件，对于文件目录繁多的vue项目，可以使用该插件快速查看组件对应的代码模块，以及快速打开IDE修改组件代码。
 
-[中文README](https://github.com/csonlai/vue-component-finder/blob/master/README.md)
+[English README](https://github.com/csonlai/vue-component-finder/blob/master/README.zh-CN.md)
 
-# Example
+# 插件展示
 ![插件展示][1]
 
-1."template","script" and "style" tag of the component in code file and line number.
-2. File path with line number the component was created
-3. Component code file preview
-4. Position of the component in html page
 
-Open IDE with path clicked and locate the component file and code line:
+1. 组件的template，script，style对应所在的文件以及起始行数
+2. 组件被创建的文件以及行数
+3. 文件代码预览
+4. 组件所在页面位置
+
+点击自动打开IDE，并定位到对应文件和对应的代码行：
 
 ![代码定位][2]
 
-# Usage
+# 如何使用
 
-1.Install loader and webpack plugin：
+1.安装对应的loader与webpack plugin：
 ```
     npm install vue-component-finder-loader && npm install vue-component-finder-plugin
 ```
-2.Use loader and webpack plugin in Vue project dev build:
+2.在项目的dev构建中引入loader与plugin：
 
-Use loader：
+引入loader：
 
 webpack 2.x:
 ``` js
@@ -46,7 +47,7 @@ webpack 1.x:
         }]
     }
 ```
-Use webpack plugin and config IDE type and IDE path:
+引入plugin并配置对应IDE类型以及文件路径（sublime为例）:
 ``` js
     var VueComponentFinderPlugin = require('vue-component-finder-plugin');
 
@@ -58,10 +59,9 @@ Use webpack plugin and config IDE type and IDE path:
     ]
 ```
 
-3.Install Chrome plugin vue-component-finder.crx
+3.安装chrome插件vue-component-finder.crx
 
-4.npm run dev, and open html page, when hover the Vue component, it will show code module info of component and locate component Vue file after path clicked
-
+4.运行项目开发构建npm run dev，打开页面，鼠标移动到组件区域即可展示对应模块详情，点击自动打开IDE展示对应组件文件内容。
 
 
   [1]: http://p.qpic.cn/pic_wework/3832524150/beb84ab606969bfaf48d8997b870cfa549817938e8657f98/0
