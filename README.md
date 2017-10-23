@@ -58,7 +58,7 @@ Use webpack plugin and config IDE type and IDE path:
     ]
 ```
 
-3.Install Chrome plugin vue-component-finder.crx
+3.Install Chrome plugin vue-component-finder.crx,You can download from github or from chrome app store:https://chrome.google.com/webstore/detail/vue-component-finder/maldlhiallkfciipjnedanjjpnfaljpl
 
 4.npm run dev, and open html page, when hover the Vue component, it will show code module info of component and locate component Vue file after path clicked
 
