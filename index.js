@@ -32,8 +32,8 @@
         });
     }
 
-    fectchContent('index.css','style');
-    fectchContent('highlight.css','style');
+    fectchContent('./css/index.css','style');
+    fectchContent('./css/highlight.css','style');
 
     function getCodeContent (contentList , viewLineCount, viewLineLastCount) {
         if (!contentList) return '';

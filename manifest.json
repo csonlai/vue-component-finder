@@ -1,17 +1,22 @@
 {
-	"name": "Vue Component Finder",
-	"version": "1.0",
-	"manifest_version": 2,
-	"description": "Code locate chrome plugin.",
-	"content_scripts": [
-		{
-			"matches": ["http://*/*","https://*/*"],
-			"js": ["index.js"],
-			"run_at":"document_end"
-		}
-	],
+    "name": "Vue Component Finder",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Tool for locate Vue component code.",
+    "content_scripts": [
+        {
+            "matches": ["http://*/*","https://*/*"],
+            "js": ["index.js"],
+            "run_at":"document_end"
+        }
+    ],
+    "icons": {
+        "32": "./images/icon32.png",
+        "48": "./images/icon48.png",
+        "128": "./images/icon128.png"
+    },
     "web_accessible_resources": [
-    	"index.css",
-    	"highlight.css"
+        "css/index.css",
+        "css/highlight.css"
     ]
 }
