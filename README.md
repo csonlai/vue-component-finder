@@ -7,8 +7,11 @@ vue-component-finder is a Chrome plugin for Vue project, which help developer pr
 ![插件展示][1]
 
 1."template","script" and "style" tag of the component in code file and line number
+
 2. File path with line number the component was created
+
 3. Component code file preview
+
 4. Position of the component in html page
 
 Open IDE with path clicked and locate the component file and code line:
