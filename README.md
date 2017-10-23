@@ -6,7 +6,7 @@ vue-component-finder is a Chrome plugin for Vue project, which help developer pr
 # Example
 ![插件展示][1]
 
-1."template","script" and "style" tag of the component in code file and line number
+ 1."template","script" and "style" tag of the component in code file and line number
 
 2. File path with line number the component was created
 
